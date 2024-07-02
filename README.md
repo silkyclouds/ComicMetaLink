@@ -8,7 +8,7 @@
 
 <h1>ComicMetaLink (CML)</h1>
 
-<p>ComicMetaLink (CML) is a Python script designed to organize and create symlinks for comic files (.cbz, .cbr, .pdf) based on their metadata extracted from <code>ComicInfo.xml</code> files. If metadata is missing, it will fallback to using the directory and file names for symlink creation. The script will detect eventual dupes, and only reflink the highest possible quality version of each comic, resulting in avoiding displaying dupes in Komga or other readers.</p>
+<p>ComicMetaLink (CML) is a Python script developed to organize and generate symlinks for comic files (.cbz, .cbr, .pdf) using metadata extracted from ComicInfo.xml files. In cases where metadata is unavailable, it defaults to using directory and file names to create symlinks. The script identifies duplicates and only creates symlinks for the highest quality version of each comic, thus preventing duplicate displays in Komga or other comic readers.</p>
 
 <h2>Features</h2>
 <ul>
